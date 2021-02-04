@@ -1,0 +1,56 @@
+#!/bin/bash
+#
+# Create C template file.
+set -Eeuo pipefail
+
+
+function usage {
+cat << EOF
+Usage: $(basename "$0") [-h] FILE_NAME
+
+Create C template file.
+
+Available options:
+
+-h, --help  Print this help and exit
+EOF
+    exit 0
+}
+
+
+function check_name {
+    local FILE_NAME=$1
+    local flag=$(echo ${FILE_NAME} | grep -q -e "^[a-zA-Z\-_]*\.c$" -)
+
+    if [[ ! -z $flag ]]; then
+        echo "Invalid name: ${FILE_NAME}; File name must end with '.c' extension."
+        exit 1
+    fi
+}
+
+
+
+if [[ $1 == "-h" ]]; then
+    usage
+fi
+
+check_name $1
+
+
+cat <<EOF>./$1
+/**
+ * CS50x 2021
+ * Problem Set ___: $1
+ */
+
+#include <stdio.h>
+#include <cs50.h>
+
+
+int main(void)
+{
+    // TODO:
+}
+EOF
+
+exit 0

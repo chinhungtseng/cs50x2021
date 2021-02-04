@@ -1,0 +1,6 @@
+1) Prompt user for height as n.
+
+2) Check n is between 1 and 8:
+     if not, then go back to step 1.
+
+3) print hashes to console
