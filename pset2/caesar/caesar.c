@@ -46,7 +46,7 @@ bool is_literal_number(string text)
     bool valid_number = false;
 
     for (int i = 0; text[i]; i++) {
-        // If the first character is '-', skip to text next
+        // If the first character is '-', skip to next
         // element, but not set valid_number to true.
         if (i == 0 && text[i] == '-')
             continue;
