@@ -33,13 +33,10 @@ int cal_population_year(int a, int b)
 {
     int years = 0;
 
-    if (a == b)
-      return 0;
-
-    do {
+    while (a < b) {
         a = a + (a / 3) - (a / 4);
         years++;
-    } while (a < b);
+    }
 
     return years;
 }
