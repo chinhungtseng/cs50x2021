@@ -30,7 +30,7 @@ int number_of_digits(long n)
 
     // Convert negative value to positive value.
     if (n < 0)
-        n = -1;
+        n = -n;
 
     while (n > 0) {
         n /= 10;
