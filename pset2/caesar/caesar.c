@@ -40,7 +40,6 @@ int main(int argc, char *argv[])
 }
 
 
-// Testing if input string is literal number or not.
 bool is_literal_number(string text)
 {
     bool valid_number = false;
