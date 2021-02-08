@@ -6,7 +6,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 - [Week 1: C](#week-1)
 - [Week 2: Arrays](#week-2)
-- Week 3: Algorithms
+- [Week 3: Algorithms](#week-3)
 - Week 4: Memory
 - Week 5: Data Structures
 - Week 6: Python
@@ -43,4 +43,10 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 * [Readability](pset2/readability/readability.c)
 * [Caesar](pset2/caesar/caesar.c)
 * [Substitution](pset2/substitution/substitution.c)
+
+## Week 3
+
+### Lab 3
+
+* [Sort](pset3/sort/answers.txt)
 

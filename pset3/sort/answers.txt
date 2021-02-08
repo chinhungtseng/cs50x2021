@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: 此排序法在已排序資料測試中為最快，而在反向排序資料測試卻是最慢，符合 Bubble sort 在最佳形況為Ω(n)；最壞狀況為𝑂(n^2).
+
+sort2 uses: Merge sort
+
+How do you know?: 此排序法在所有的測試中皆有不錯表現，但在已排序資料測試較 sort1 略差, 符合 Merge sort 最佳及最壞形況為Ω(nlogn).
+
+sort3 uses: Selection sort
+
+How do you know?: middle
