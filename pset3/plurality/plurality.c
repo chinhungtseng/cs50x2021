@@ -94,7 +94,7 @@ void print_winner(void)
         printf("%s\n", candidates[i].name);
 }
 
-// Test two strings are equal.
+// Check if two strings are equal or not.
 bool compare_string(const char name1[], const char name2[])
 {
     int i = 0;
@@ -109,6 +109,7 @@ bool compare_string(const char name1[], const char name2[])
     return equal;
 }
 
+// Sort the candidates array in desending order by .votes value. 
 void sort_candidates(void)
 {
     candidate temp;
