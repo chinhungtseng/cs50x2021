@@ -42,4 +42,5 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 * [Readability](pset2/readability/readability.c)
 * [Caesar](pset2/caesar/caesar.c)
+* [Substitution](pset2/substitution/substitution.c)
 
