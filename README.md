@@ -54,4 +54,5 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 * [Plurality](pset3/plurality/plurality.c)
 * [Runoff](pset3/runoff/runoff.c)
+* [Tideman](pset3/tideman/tideman.c)
 
