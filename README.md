@@ -21,38 +21,38 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 ### Lab 1
 
-* [Hello](pset1/hello/hello.c)
-* [Population](pset1/population/population.c)
+* [Hello](week1/lab1/hello/hello.c)
+* [Population](week1/lab1/population/population.c)
 
 ### Problem set 1
 
-* [Mario less version](pset1/mario/less/mario.c)
-* [Mario more version](pset1/mario/more/mario.c)
-* [Cash](pset1/cash/cash.c)
-* [Credit](pset1/credit/credit.c)
+* [Mario less version](week1/pset1/mario/less/mario.c)
+* [Mario more version](week1/pset1/mario/more/mario.c)
+* [Cash](week1/pset1/cash/cash.c)
+* [Credit](week1/pset1/credit/credit.c)
 
 
 ## Week 2
 
 ### Lab 2
 
-* [Scrabble](pset2/scrabble/scrabble.c)
+* [Scrabble](week2/lab2/scrabble/scrabble.c)
 
 ### Problem set 2
 
-* [Readability](pset2/readability/readability.c)
-* [Caesar](pset2/caesar/caesar.c)
-* [Substitution](pset2/substitution/substitution.c)
+* [Readability](week2/pset2/readability/readability.c)
+* [Caesar](week2/pset2/caesar/caesar.c)
+* [Substitution](week2/pset2/substitution/substitution.c)
 
 ## Week 3
 
 ### Lab 3
 
-* [Sort](pset3/sort/answers.txt)
+* [Sort](week3/lab3/sort/answers.txt)
 
 ### Problem set 3
 
-* [Plurality](pset3/plurality/plurality.c)
-* [Runoff](pset3/runoff/runoff.c)
-* [Tideman](pset3/tideman/tideman.c)
+* [Plurality](week3/pset3/plurality/plurality.c)
+* [Runoff](week3/pset3/runoff/runoff.c)
+* [Tideman](week3/pset3/tideman/tideman.c)
 
