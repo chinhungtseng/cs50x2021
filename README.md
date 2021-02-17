@@ -7,7 +7,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 1: C](#week-1)
 - [Week 2: Arrays](#week-2)
 - [Week 3: Algorithms](#week-3)
-- Week 4: Memory
+- [Week 4: Memory](#week-4)
 - Week 5: Data Structures
 - Week 6: Python
 - Week 7: SQL
@@ -56,3 +56,8 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 * [Runoff](week3/pset3/runoff/runoff.c)
 * [Tideman](week3/pset3/tideman/tideman.c)
 
+## Week 4
+
+### Lab 4
+
+* [Volume](week4/lab4/volume/volume.c)
