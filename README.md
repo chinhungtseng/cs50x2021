@@ -61,3 +61,8 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 ### Lab 4
 
 * [Volume](week4/lab4/volume/volume.c)
+
+### Problem set 4
+
+* [Filter less version](week4/pset4/filter/less/helpers.c)
+
