@@ -1,7 +1,6 @@
 #include "helpers.h"
 #include "math.h"
 #include "string.h"
-#include "stdio.h"
 
 #define MP(pixel) ((pixel) > 255 ? 255 : (pixel)) // MaxPixel
 
