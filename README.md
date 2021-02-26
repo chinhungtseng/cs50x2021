@@ -66,4 +66,5 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 * [Filter less version](week4/pset4/filter/less/helpers.c)
 * [Filter more version](week4/pset4/filter/more/helpers.c)
+* [Recover](week4/pset4/recover/recover.c)
 
