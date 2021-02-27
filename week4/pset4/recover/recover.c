@@ -9,6 +9,10 @@ int main(int argc, char *argv[])
 {
     FILE *input, *output;
     BYTE *buffer = malloc(64 * sizeof(BYTE)); // allocate 512 bytes
+    if (buffer == NULL) {
+	fprintf(stderr, "malloc failed\n");
+	exit(EXIT_FAILURE);
+    }
 
     // Check command-line arguments.
     if (argc != 2) {
