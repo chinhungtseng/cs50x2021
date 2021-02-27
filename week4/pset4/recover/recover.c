@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
 
     free(buffer);
     fclose(input);
+    fclose(output);
 
     return EXIT_SUCCESS;
 }
