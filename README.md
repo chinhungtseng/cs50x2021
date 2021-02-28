@@ -8,7 +8,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 2: Arrays](#week-2)
 - [Week 3: Algorithms](#week-3)
 - [Week 4: Memory](#week-4)
-- Week 5: Data Structures
+- [Week 5: Data Structures](#week-5)
 - Week 6: Python
 - Week 7: SQL
 - Week 8: HTML,CSS,JaveScript
@@ -68,3 +68,8 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 * [Filter more version](week4/pset4/filter/more/helpers.c)
 * [Recover](week4/pset4/recover/recover.c)
 
+## Week 5
+
+### Lab 5
+
+* [Inheritance](week5/lab5/inheritance/inheritance.c)
