@@ -73,3 +73,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 ### Lab 5
 
 * [Inheritance](week5/lab5/inheritance/inheritance.c)
+
+### Problem set 5
+
+* [Speller](week5/pset5/speller/dictionary.c)
