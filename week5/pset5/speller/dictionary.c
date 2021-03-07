@@ -5,6 +5,7 @@
 #include <string.h>
 #include <strings.h>
 #include <stdio.h>
+#include <ctype.h>
 
 #include "dictionary.h"
 
@@ -17,7 +18,7 @@ typedef struct node
 node;
 
 // Number of buckets in hash table
-const unsigned int N = 1000;
+const unsigned int N = 4001;
 
 // Hash table
 node *table[N];
@@ -28,15 +29,13 @@ unsigned int words = 0;
 // Returns true if word is in dictionary, else false
 bool check(const char *word)
 {
-    for (int i = N - 1; i >= 0; i--) {
-        node *head = table[i];
+    unsigned int i = hash(word);
+    node *head = table[i];
 
-        while (head) {
-            if (strcasecmp(head->word, word) == 0)
-                return true;
-
-            head = head->next;
-        }
+    while (head) {
+        if (strcasecmp(head->word, word) == 0)
+            return true;
+        head = head->next;
     }
 
     return false;
@@ -49,7 +48,7 @@ unsigned int hash(const char *word)
     const char *a = word;
 
     while (*a) {
-        sum += *a;
+        sum += tolower(*a);
         a++;
     }
 
@@ -98,6 +97,8 @@ unsigned int size(void)
 // Unloads dictionary from memory, returning true if successful, else false
 bool unload(void)
 {
+    int free_counter = 0;
+
     for (int i = N - 1; i >= 0; i--) {
         node *head = table[i], *temp = head;
 
@@ -105,7 +106,12 @@ bool unload(void)
             head = head->next;
             free(temp);
             temp = head;
+            free_counter++;
         }
     }
-    return true;
+
+    if (free_counter == words)
+        return true;
+    else
+        return false;
 }
