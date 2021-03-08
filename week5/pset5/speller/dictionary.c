@@ -44,15 +44,15 @@ bool check(const char *word)
 // Hashes word to a number
 unsigned int hash(const char *word)
 {
-    int sum = 0;
-    const char *a = word;
+    int number = 0;
 
-    while (*a) {
-        sum += tolower(*a);
-        a++;
+    while (*word) {
+        number += tolower(*word++);
+        if (*word)
+            number += ((int) tolower(*word++)) << 8;
     }
 
-    return sum % N;
+    return number % N;
 }
 
 // Loads dictionary into memory, returning true if successful, else false
@@ -72,10 +72,11 @@ bool load(const char *dictionary)
         node *new_node = malloc(sizeof(node));
 
         strcpy(new_node->word, word);
-        new_node->next = NULL;
 
         if (*head)
             new_node->next = *head;
+        else
+            new_node->next = NULL;
 
         *head = new_node;
 
