@@ -9,7 +9,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 3: Algorithms](#week-3)
 - [Week 4: Memory](#week-4)
 - [Week 5: Data Structures](#week-5)
-- Week 6: Python
+- [Week 6: Python](#week-6)
 - Week 7: SQL
 - Week 8: HTML,CSS,JaveScript
 - Week 9: Flask
@@ -77,3 +77,10 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 ### Problem set 5
 
 * [Speller](week5/pset5/speller/dictionary.c)
+
+## Week 6
+
+### Lab 6
+
+* [tournament](week6/lab6/tournament/tournament.py)
+
