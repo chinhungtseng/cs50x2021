@@ -90,3 +90,4 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 * [Mario less version](week6/pset6/mario/less/mario.py)
 * [Mario more version](week6/pset6/mario/more/mario.py)
 * [Cash](week6/pset6/cash/cash.py)
+* [Credit](week6/pset6/credit/credit.py)
