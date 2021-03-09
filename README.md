@@ -84,3 +84,6 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 * [tournament](week6/lab6/tournament/tournament.py)
 
+### Problem set 6
+
+* [hello](week6/pset6/hello/hello.py)
