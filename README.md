@@ -92,3 +92,4 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 * [Cash](week6/pset6/cash/cash.py)
 * [Credit](week6/pset6/credit/credit.py)
 * [Readability](week6/pset6/readability/readability.py)
+* [DNA](week6/pset6/dna/dna.py)
