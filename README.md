@@ -86,10 +86,10 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 ### Problem set 6
 
-* [Hello](week6/pset6/hello/hello.py)
-* [Mario less version](week6/pset6/mario/less/mario.py)
-* [Mario more version](week6/pset6/mario/more/mario.py)
-* [Cash](week6/pset6/cash/cash.py)
-* [Credit](week6/pset6/credit/credit.py)
-* [Readability](week6/pset6/readability/readability.py)
+* [Hello - Python](week6/pset6/hello/hello.py)
+* [Mario less version - Python](week6/pset6/mario/less/mario.py)
+* [Mario more version - Python](week6/pset6/mario/more/mario.py)
+* [Cash - Python](week6/pset6/cash/cash.py)
+* [Credit - Python](week6/pset6/credit/credit.py)
+* [Readability - Python](week6/pset6/readability/readability.py)
 * [DNA](week6/pset6/dna/dna.py)
