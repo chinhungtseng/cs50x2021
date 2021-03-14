@@ -10,7 +10,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 4: Memory](#week-4)
 - [Week 5: Data Structures](#week-5)
 - [Week 6: Python](#week-6)
-- Week 7: SQL
+- [Week 7: SQL](#week-7)
 - Week 8: HTML,CSS,JaveScript
 - Week 9: Flask
 - Week 10 Ethics
@@ -93,3 +93,9 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 * [Credit - Python](week6/pset6/credit/credit.py)
 * [Readability - Python](week6/pset6/readability/readability.py)
 * [DNA](week6/pset6/dna/dna.py)
+
+## Week 7
+
+### Lab 7
+
+* [Songs](week7/lab7/songs)
