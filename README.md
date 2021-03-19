@@ -111,3 +111,6 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 
 * [Trivia](week8/lab8/trivia/index.html)
 
+### Problem set 8
+
+* [Homepage](week8/pset8/homepage)
