@@ -12,7 +12,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 - [Week 6: Python](#week-6)
 - [Week 7: SQL](#week-7)
 - [Week 8: HTML,CSS,JaveScript](#week-8)
-- Week 9: Flask
+- [Week 9: Flask](#week-9)
 - Week 10 Ethics
 - Final Project
 
@@ -114,3 +114,9 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 ### Problem set 8
 
 * [Homepage](week8/pset8/homepage)
+
+## Week 9
+
+### Lab 9
+
+* [Birthdays](week9/lab9/birthdays)
