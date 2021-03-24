@@ -16,9 +16,9 @@
                 <h2>Add a Birthday</h2>
                 <!-- Create a form for users to submit a name, a month, and a day -->
                 <form action="/" method="post">
-                    <input autocomplete="off" autofocus name="name" placeholder="Name" type="text">
-                    <input autocomplete="off" name="month" placeholder="Month" type="text">
-                    <input autocomplete="off" name="day" placeholder="Day" type="text">
+                    <input name="name" placeholder="Name" type="text">
+                    <input name="month" placeholder="Month" type="number", min=1, max=12>
+                    <input name="day" placeholder="Day" type="number", min=1, max=31>
                     <input type="submit" value="Add Birthday">
                 </form>
             </div>
@@ -38,7 +38,7 @@
                         {% for people in peoples %}
                             <tr>
                                 <td>{{ people.name }}</td>
-                                <td>{{ people.month }}/{{ people.day }}</td>
+                                <td>{{ people.month ~ "/" ~ people.day }}</td>
                             </tr>
                         {% endfor %}
                     </tbody>
