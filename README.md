@@ -120,3 +120,7 @@ My solutions to problem sets and labs of [Harvard's CS50x 2021](https://cs50.har
 ### Lab 9
 
 * [Birthdays](week9/lab9/birthdays)
+
+### Problem set 9
+
+* [Finance](week9/pset9/finance)
