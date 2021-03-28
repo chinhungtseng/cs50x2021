@@ -107,7 +107,7 @@ def buy():
 
         # Update user owned cash
         db.execute("UPDATE users SET cash = ? WHERE id = ?;",
-                   (user_owned_cash - total_prices), session["user_id"]);
+                   (user_owned_cash - total_prices), session["user_id"])
 
         flash("Bought!")
 
@@ -209,7 +209,7 @@ def register():
 
         # Insert username into database
         id = db.execute("INSERT INTO users (username, hash) VALUES (?, ?);",
-                            username, generate_password_hash(password))
+                        username, generate_password_hash(password))
 
         # Remember which user has logged in
         session["user_id"] = id
@@ -264,7 +264,7 @@ def sell():
 
         # Update user owned cash
         db.execute("UPDATE users SET cash = ? WHERE id = ?;",
-                   (rows[0]['cash'] + (query['price'] * shares)), session["user_id"]);
+                   (rows[0]['cash'] + (query['price'] * shares)), session["user_id"])
 
         flash("Sold!")
 
@@ -296,7 +296,7 @@ def reset():
             return apology("PASSWORD NOT MATCH")
 
         db.execute("UPDATE users set hash = ? WHERE id = ?;",
-            generate_password_hash(new_password), session["user_id"])
+                   generate_password_hash(new_password), session["user_id"])
 
         flash("Password reset successful!")
 
